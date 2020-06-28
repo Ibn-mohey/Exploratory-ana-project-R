@@ -26,7 +26,7 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 9. **Sub_metering_3**: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 ___
 
-#the code it self is [R code.r] (https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/R%20code.R)  
+#the code it self is [R code.r](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/R%20code.R)  
 
 #the reading and cleaning part
 ```R
