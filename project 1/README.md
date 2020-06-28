@@ -26,7 +26,7 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 9. **Sub_metering_3**: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 ___
 
-#the code it self is [R code.r] (https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/R%20code.R)  
+#the code it self is [R code.r] (https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/R%20code.R)  
 
 #the reading and cleaning part
 ```R
@@ -78,7 +78,7 @@ png("plot1.png", width = 480, height = 480 , units = "px")
 hist(df$Global_active_power, col = "red", xlab="Global Active Power (kilowatts)")
 dev.off()
 ```
-![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/plot1.png)
+![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/plot1.png)
 
 
 #second plot
@@ -89,7 +89,7 @@ png("plot2.png", width = 480, height = 480 , units = "px")
 plot(x = df$datetime, y = df$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
 ```
-![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/plot2.png)
+![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/plot2.png)
 
 #third plot
 ```R
@@ -102,7 +102,7 @@ legend("topright", col=c("black","red","blue"),legend =  c("Sub_metering_1  ","S
 
 dev.off()
 ```
-![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/plot3.png)
+![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/plot3.png)
 
 #final plot
 ```R
@@ -123,4 +123,4 @@ plot(x = df$datetime, y = df$Global_reactive_power, type="l", xlab="datetime", y
 dev.off()
 ```
 
-![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/plot4.png)
+![](https://github.com/Ibn-mohey/Exploratory-ana-project-R/blob/master/project%201/plot4.png)
